@@ -3,12 +3,12 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 .main{
-    padding-left:500px;
+    padding-left:380px;
     padding-top:50px;
 }
 
 ul {
-  list-style: none;
+   list-style: none;
 }
 
 .name{
@@ -22,4 +22,8 @@ ul {
 
 .arrow-icon-color-selector{
     border-radius: 50%;
+}
+
+.link-main{
+    padding-left: 50px;
 }

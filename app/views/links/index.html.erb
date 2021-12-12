@@ -13,3 +13,13 @@
        </div>
     </div>  
 </header>
+<main class="link-main">
+      <% @links.each do |l| %>
+     <div class="box" style="border: solid 2px <%= l.color %>">
+      <ul>
+       <li><a href="<%= l.url %>"><%= l.title %></a></li>
+       <li><%= l.body %></li>
+      </ul>
+     </div>
+      <% end %>
+</main>
